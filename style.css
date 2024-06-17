@@ -56,7 +56,7 @@ svg{
         gap: 2rem;
     }
     .number {
-        font-size: 8rem;
+        font-size: 12rem;
     }
     .functions {
         gap: 3rem;
@@ -68,7 +68,23 @@ svg{
         gap: 2rem;
     }
     .number {
-        font-size: 6rem;
+        font-size: 10rem;
+    }
+    .functions {
+        gap: 2rem;
+    }
+    svg{
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+    .container {
+        gap: 2rem;
+    }
+    .number {
+        font-size: 9rem;
     }
     .functions {
         gap: 2rem;
@@ -79,34 +95,18 @@ svg{
     }
 }
 
-@media only screen and (max-width: 425px) and (min-width: 375px) {
-    .container {
-        gap: 2rem;
-    }
-    .number {
-        font-size: 6rem;
-    }
-    .functions {
-        gap: 2rem;
-    }
-    svg{
-        height: 50px;
-        width: 50px;
-    }
-}
-
 @media only screen and (max-width: 375px) and (min-width: 320px) {
     .container {
         gap: 1.5rem;
     }
     .number {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     .functions {
         gap: 1rem;
     }
     svg{
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
     }
 }
