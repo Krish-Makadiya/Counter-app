@@ -51,7 +51,7 @@ svg{
     border-radius: 100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
     .container {
         gap: 2rem;
     }
@@ -60,5 +60,53 @@ svg{
     }
     .functions {
         gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+    .container {
+        gap: 2rem;
+    }
+    .number {
+        font-size: 6rem;
+    }
+    .functions {
+        gap: 2rem;
+    }
+    svg{
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 375px) {
+    .container {
+        gap: 2rem;
+    }
+    .number {
+        font-size: 6rem;
+    }
+    .functions {
+        gap: 2rem;
+    }
+    svg{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+    .container {
+        gap: 1.5rem;
+    }
+    .number {
+        font-size: 5rem;
+    }
+    .functions {
+        gap: 1rem;
+    }
+    svg{
+        height: 40px;
+        width: 40px;
     }
 }
